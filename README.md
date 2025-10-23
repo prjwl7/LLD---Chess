@@ -31,7 +31,7 @@ g++ -std=c++17 -o chess_game main.cpp System.cpp Board.cpp Player.cpp Move.cpp C
 ```
 
 ## Project Structure
-
+```
 Chess/
 ├── main.cpp          # Main game loop and system initialization
 ├── System.h/.cpp     # Manages game state, players, and turn flow
@@ -45,4 +45,4 @@ Chess/
     ├── Rook.h/.cpp   # Derived Rook class
     ├── Pawn.h/.cpp   # Derived Pawn class
     └── ...           # All other piece definitions (King, Queen, etc.)
-
+```
